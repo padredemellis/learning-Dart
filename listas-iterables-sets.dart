@@ -16,7 +16,7 @@ void main() {
     'Iterable: a set ${reversedNumbers.toSet()}',
   ); //el set no tiene duplicados
 
-  final numbersGreaterThan5 = numbers.where((num) => num > 5);
+  final numbersGreaterThan5 = numbers.where((num) => num > 5); // filtrar
   print('Filtrar numeros mayores a 5: ${numbersGreaterThan5}');
 
   final List<int> precios = [10, 50, 100, 25];
