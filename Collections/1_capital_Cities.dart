@@ -10,3 +10,7 @@ void main() {
     print('${capital.key}: ${capital.value}');
   }
 }
+
+/*
+Creo que entries convierte el mapa en un iterable
+*/
