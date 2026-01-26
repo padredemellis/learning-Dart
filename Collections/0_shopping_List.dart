@@ -1,7 +1,7 @@
 void main() {
   List<String> localList = List.from(shoppingList);
-  localList.addAll(["cheese", "butter"]);
-  localList.remove("bread");
+  shoppingList.addAll(["cheese", "butter"]);
+  shoppingList.remove("bread");
   print(localList);
 }
 
