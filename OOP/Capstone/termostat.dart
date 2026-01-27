@@ -1,4 +1,5 @@
 import 'base.dart';
+
 class Thermostat extends SmartDevice {
   @override
   void turnOn() {
@@ -25,4 +26,14 @@ class Thermostat extends SmartDevice {
       _temperature = newTemperature;
     }
   }
+
+  void increaseTemp() {
+    _temperature++;
+  }
+  
+  void subtractTemp() {
+    _temperature--;
+  }
+
+  bool get isEcoMode => _temperature < 20;
 }
