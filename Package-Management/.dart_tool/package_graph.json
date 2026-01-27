@@ -7,9 +7,15 @@
       "name": "package_demo",
       "version": "1.0.0+1",
       "dependencies": [
+        "characters",
         "intl"
       ],
       "devDependencies": []
+    },
+    {
+      "name": "characters",
+      "version": "1.4.1",
+      "dependencies": []
     },
     {
       "name": "intl",

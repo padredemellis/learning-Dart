@@ -2,6 +2,12 @@
   "configVersion": 2,
   "packages": [
     {
+      "name": "characters",
+      "rootUri": "file:///home/padreDeMellis/.pub-cache/hosted/pub.dev/characters-1.4.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
       "name": "clock",
       "rootUri": "file:///home/padreDeMellis/.pub-cache/hosted/pub.dev/clock-1.1.2",
       "packageUri": "lib/",
