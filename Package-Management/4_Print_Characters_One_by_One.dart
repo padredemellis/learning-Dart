@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 import 'package:characters/characters.dart';
 
 void main() {
