@@ -1,0 +1,13 @@
+name: dart_report
+description: A modular console report generator
+version: 1.0.0
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  intl: ^0.18.0
+  characters: ^1.3.0
+
+dev_dependencies:
+  lints: ^2.0.0
