@@ -1,0 +1,30 @@
+void main() {
+  Shape s = Shape();
+  Circle c = Circle();
+  Square sq = Square();
+
+  s.draw();
+  c.draw();
+  sq.draw();
+}
+
+class Shape {
+  void draw() {
+    print("Drawing a shape");
+  }
+}
+
+class Circle extends Shape {
+  @override
+  void draw() {
+    print("Drawing a circle");
+  }
+}
+
+class Square extends Shape {
+  @override
+  void draw() {
+    print("Drawing a square");
+  }
+}
+
